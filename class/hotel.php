@@ -17,7 +17,7 @@ class hotel
 
     public function infromar()
     {
-        return "<br>"."<br>"."bienvenid@ al hotel  ".$this->nombre_hotel." ubicado en ".$this->lugar." y esta abierto ".$this->cuando_abren."y cuenta con un total de: ".$this->numero_de_habitaciones." habitaciones";
+        return "<br>"."<br>"."bienvenid@ al hotel  ".$this->nombre_hotel." ubicado en ".$this->lugar." y esta abierto ".$this->cuando_abren."y cuenta con un total de: ".$this->numero_de_habitaciones." habitaciones"."<br>";
         }
 }
 

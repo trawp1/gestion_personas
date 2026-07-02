@@ -18,12 +18,11 @@ $hote2= new hotel("leon","bogota","todo el dia","5");
 
 echo$hotel1->infromar();
 
+require_once "../class/estudiantes.php";
 
 
-
-
-
-
+$estudiante1 = new estudiante("armando","21","2344@gmail.com","luna");
+echo $estudiante1->saludar();
 
 /*
 $persona1= New Persona();
